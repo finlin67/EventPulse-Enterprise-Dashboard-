@@ -9,8 +9,8 @@ This project demonstrates the extraction and conversion of a legacy HTML/CSS/Van
 *   **Framer Motion** (Animations)
 *   **Lucide React** (Icons)
 
-## ProductPhaseTile Component
-The core of this extraction is `components/ProductPhaseTile.tsx`. It is a standalone 600x600px visualization tile featuring:
+## EventMarketing Component
+The core of this extraction is `components/EventMarketing.tsx`. It is a standalone 600x600px visualization tile featuring:
 *   Pulsing central node animation.
 *   Floating user avatar elements.
 *   SVG Path animations.
@@ -19,5 +19,5 @@ The core of this extraction is `components/ProductPhaseTile.tsx`. It is a standa
 
 ## Usage
 1.  Install dependencies: `npm install framer-motion lucide-react`
-2.  Import the component: `import ProductPhaseTile from './components/ProductPhaseTile';`
-3.  Place `<ProductPhaseTile />` inside any grid or flex container. It naturally fills width up to 600px and maintains a square aspect ratio.
+2.  Import the component: `import EventMarketing from './components/EventMarketing';`
+3.  Place `<EventMarketing />` inside any grid or flex container. It naturally fills width up to 600px and maintains a square aspect ratio.

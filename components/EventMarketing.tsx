@@ -10,7 +10,7 @@ import {
   BadgeDollarSign 
 } from 'lucide-react';
 
-export default function ProductPhaseTile() {
+export default function EventMarketing() {
   // Animation variants for floating avatars
   const floatAnimation = (delay: number) => ({
     y: [0, -10, 0],

@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import { 
   Zap, 
@@ -17,7 +19,7 @@ import {
   MessageSquare,
   Grip
 } from 'lucide-react';
-import ProductPhaseTile from './components/ProductPhaseTile';
+import EventMarketing from './components/EventMarketing';
 
 export default function App() {
   return (
@@ -122,7 +124,7 @@ export default function App() {
             {/* Hero Section / Visualization */}
             <div className="w-full grid grid-cols-1 xl:grid-cols-2 gap-8 items-stretch">
               {/* REPLACED ORIGINAL HTML TILE WITH REACT COMPONENT */}
-              <ProductPhaseTile />
+              <EventMarketing />
 
               {/* Right Column: Stats & Timeline */}
               <div className="flex flex-col gap-6">
